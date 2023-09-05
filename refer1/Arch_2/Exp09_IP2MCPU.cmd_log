@@ -1,0 +1,63 @@
+xst -intstyle ise -ifn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+xst -intstyle ise -ifn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+xst -intstyle ise -ifn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+xst -intstyle ise -ifn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+xst -intstyle ise -ifn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+xst -intstyle ise -ifn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+xst -intstyle ise -ifn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+xst -intstyle ise -ifn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 Exp09_IP2MCPU.ngc Exp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ngd Exp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ncd Exp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Exp09_IP2MCPU.twx Exp09_IP2MCPU.ncd -o Exp09_IP2MCPU.twr Exp09_IP2MCPU.pcf 
+bitgen -intstyle ise -f Exp09_IP2MCPU.ut Exp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "Z:/Documents/ise/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-1 Exp09_IP2MCPU.ngc Exp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ngd Exp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ncd Exp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Exp09_IP2MCPU.twx Exp09_IP2MCPU.ncd -o Exp09_IP2MCPU.twr Exp09_IP2MCPU.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f Exp09_IP2MCPU.ut Exp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-1 Exp09_IP2MCPU.ngc Exp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ngd Exp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ncd Exp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Exp09_IP2MCPU.twx Exp09_IP2MCPU.ncd -o Exp09_IP2MCPU.twr Exp09_IP2MCPU.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f Exp09_IP2MCPU.ut Exp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-1 Exp09_IP2MCPU.ngc Exp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ngd Exp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ncd Exp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Exp09_IP2MCPU.twx Exp09_IP2MCPU.ncd -o Exp09_IP2MCPU.twr Exp09_IP2MCPU.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f Exp09_IP2MCPU.ut Exp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-1 Exp09_IP2MCPU.ngc Exp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ngd Exp09_IP2MCPU.pcf 
+xst -intstyle ise -ifn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+xst -intstyle ise -ifn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-1 Exp09_IP2MCPU.ngc Exp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ngd Exp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ncd Exp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Exp09_IP2MCPU.twx Exp09_IP2MCPU.ncd -o Exp09_IP2MCPU.twr Exp09_IP2MCPU.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f Exp09_IP2MCPU.ut Exp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-1 Exp09_IP2MCPU.ngc Exp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ngd Exp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ncd Exp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Exp09_IP2MCPU.twx Exp09_IP2MCPU.ncd -o Exp09_IP2MCPU.twr Exp09_IP2MCPU.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f Exp09_IP2MCPU.ut Exp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-1 Exp09_IP2MCPU.ngc Exp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ngd Exp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ncd Exp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Exp09_IP2MCPU.twx Exp09_IP2MCPU.ncd -o Exp09_IP2MCPU.twr Exp09_IP2MCPU.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f Exp09_IP2MCPU.ut Exp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-1 Exp09_IP2MCPU.ngc Exp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ngd Exp09_IP2MCPU.pcf 
+xst -intstyle ise -ifn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+xst -intstyle ise -ifn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.xst" -ofn "G:/OExp09-IP2MCPU_/Exp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-1 Exp09_IP2MCPU.ngc Exp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ngd Exp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Exp09_IP2MCPU_map.ncd Exp09_IP2MCPU.ncd Exp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Exp09_IP2MCPU.twx Exp09_IP2MCPU.ncd -o Exp09_IP2MCPU.twr Exp09_IP2MCPU.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f Exp09_IP2MCPU.ut Exp09_IP2MCPU.ncd 

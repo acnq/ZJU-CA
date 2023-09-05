@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj exp02 -o C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/clk_generate.tfi -lib work C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02//clk_generate.v -module clk_generate -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

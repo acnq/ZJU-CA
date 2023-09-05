@@ -1,0 +1,1617 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: mips_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips_top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips_top"
+Output Format                      : NGC
+Target Device                      : xc7k325t-2L-fbg676
+
+---- Source Options
+Top Module Name                    : mips_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\slt32.v" into library work
+Parsing module <slt32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\sll.v" into library work
+Parsing module <sll32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\MUX8T1_32.v" into library work
+Parsing module <MUX8T1_32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\xor32.v" into library work
+Parsing module <xor32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\srl32.v" into library work
+Parsing module <srl32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\SignalExt_32.v" into library work
+Parsing module <SignalExt_32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\or_bit_32 .v" into library work
+Parsing module <or_bit_32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\or32.v" into library work
+Parsing module <or32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\nor32.v" into library work
+Parsing module <nor32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\and32.v" into library work
+Parsing module <and32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\addc_32.v" into library work
+Parsing module <ADC32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\calcover.v" into library work
+Parsing module <calcover>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\MUX2T1_32.v" into library work
+Parsing module <MUX2T1_32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\alu.vf" into library work
+Parsing module <alu>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\STALL.v" into library work
+Parsing module <STALL>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\Regs.v" into library work
+Parsing module <Regs>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\REG32.v" into library work
+Parsing module <REG32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\MUX4T1_32.v" into library work
+Parsing module <MUX4T1_32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\MUX2T1_5.v" into library work
+Parsing module <MUX2T1_5>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\MEM_WB_Latches.v" into library work
+Parsing module <MEM_WB_Latches>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\IF_ID_Latches.v" into library work
+Parsing module <IF_ID_Latches>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\ID_EXE_Latches.v" into library work
+Parsing module <ID_EXE_Latches>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\Ext_32.v" into library work
+Parsing module <Ext_32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\EXE_MEM_Latches.v" into library work
+Parsing module <EXE_MEM_Latches>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\CPU_CTRL.v" into library work
+Parsing module <CPU_CTRL>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\CHECK_BRANCH.v" into library work
+Parsing module <CHECK_BRANCH>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\add_32.v" into library work
+Parsing module <add_32>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" into library work
+Parsing module <SCPU>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\parallel2serial.v" into library work
+Parsing verilog file "define.vh" included at line 1.
+Parsing module <parallel2serial>.
+Parsing verilog file "function.vh" included at line 20.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\ipcore_dir\INST_ROM.v" into library work
+Parsing module <INST_ROM>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\ipcore_dir\DATA_RAM.v" into library work
+Parsing module <DATA_RAM>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\vga_debug.v" into library work
+Parsing module <vga_debug>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\vga.v" into library work
+Parsing module <vga>.
+WARNING:HDLCompiler:751 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\vga.v" Line 11: Redeclaration of ansi port h_count is not allowed
+WARNING:HDLCompiler:751 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\vga.v" Line 22: Redeclaration of ansi port v_count is not allowed
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" into library work
+Parsing module <my_clk_gen>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v" into library work
+Parsing verilog file "define.vh" included at line 1.
+Parsing module <mips>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\display.v" into library work
+Parsing verilog file "define.vh" included at line 1.
+Parsing module <display>.
+Parsing verilog file "function.vh" included at line 27.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\clk_diff.v" into library work
+Parsing module <clk_diff>.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\btn_scan.v" into library work
+Parsing verilog file "define.vh" included at line 1.
+Parsing module <btn_scan>.
+Parsing verilog file "function.vh" included at line 17.
+Analyzing Verilog file "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" into library work
+Parsing verilog file "define.vh" included at line 1.
+Parsing module <mips_top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" Line 85: Port led_clr_n is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" Line 102: Port r1 is not connected to this instance
+
+Elaborating module <mips_top>.
+
+Elaborating module <clk_diff>.
+
+Elaborating module <IBUFGDS(DIFF_TERM="FALSE",IBUF_LOW_PWR="TRUE",IOSTANDARD="DEFAULT")>.
+
+Elaborating module <my_clk_gen>.
+
+Elaborating module <MMCME2_ADV(BANDWIDTH="OPTIMIZED",CLKOUT4_CASCADE="FALSE",COMPENSATION="ZHOLD",STARTUP_WAIT="FALSE",DIVCLK_DIVIDE=1,CLKFBOUT_MULT_F=5.0,CLKFBOUT_PHASE=0.0,CLKFBOUT_USE_FINE_PS="FALSE",CLKOUT0_DIVIDE_F=10.0,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT0_USE_FINE_PS="FALSE",CLKOUT1_DIVIDE=20,CLKOUT1_PHASE=0.0,CLKOUT1_DUTY_CYCLE=0.5,CLKOUT1_USE_FINE_PS="FALSE",CLKOUT2_DIVIDE=40,CLKOUT2_PHASE=0.0,CLKOUT2_DUTY_CYCLE=0.5,CLKOUT2_USE_FINE_PS="FALSE",CLKOUT3_DIVIDE=100,CLKOUT3_PHASE=0.0,CLKOUT3_DUTY_CYCLE=0.5,CLKOUT3_USE_FINE_PS="FALSE",CLKIN1_PERIOD=5.0,REF_JITTER1=0.01)>.
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 134: Assignment to clkfboutb_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 136: Assignment to clkout0b_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 138: Assignment to clkout1b_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 140: Assignment to clkout2b_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 142: Assignment to clkout3b_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 143: Assignment to clkout4_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 144: Assignment to clkout5_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 145: Assignment to clkout6_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 157: Assignment to do_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 158: Assignment to drdy_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 164: Assignment to psdone_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 166: Assignment to locked_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 167: Assignment to clkinstopped_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 168: Assignment to clkfbstopped_unused ignored, since the identifier is never used
+
+Elaborating module <BUFG>.
+
+Elaborating module <btn_scan(CLK_FREQ=25)>.
+
+Elaborating module <display>.
+
+Elaborating module <parallel2serial(P_CLK_FREQ=25,S_CLK_FREQ=20,DATA_BITS=16,CODE_ENDIAN=1)>.
+
+Elaborating module <parallel2serial(P_CLK_FREQ=25,S_CLK_FREQ=20,DATA_BITS=64,CODE_ENDIAN=1)>.
+WARNING:HDLCompiler:1016 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v" Line 69: Port r26 is not connected to this instance
+
+Elaborating module <mips>.
+WARNING:HDLCompiler:1016 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" Line 322: Port r12 is not connected to this instance
+
+Elaborating module <SCPU>.
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" Line 196: Assignment to cpu_rst ignored, since the identifier is never used
+
+Elaborating module <STALL>.
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\STALL.v" Line 50: Assignment to EXE_Branch ignored, since the identifier is never used
+
+Elaborating module <REG32>.
+
+Elaborating module <add_32>.
+
+Elaborating module <MUX4T1_32>.
+
+Elaborating module <IF_ID_Latches>.
+
+Elaborating module <CPU_CTRL>.
+
+Elaborating module <Regs>.
+WARNING:HDLCompiler:189 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" Line 332: Size mismatch in connection of port <debug_addr>. Formal port size is 5-bit while actual signal size is 7-bit.
+
+Elaborating module <ID_EXE_Latches>.
+
+Elaborating module <Ext_32>.
+
+Elaborating module <MUX2T1_32>.
+
+Elaborating module <alu>.
+
+Elaborating module <and32>.
+
+Elaborating module <ADC32>.
+
+Elaborating module <xor32>.
+
+Elaborating module <nor32>.
+
+Elaborating module <srl32>.
+
+Elaborating module <SignalExt_32>.
+
+Elaborating module <MUX8T1_32>.
+
+Elaborating module <GND>.
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\alu.vf" Line 81: Assignment to N0 ignored, since the identifier is never used
+
+Elaborating module <or_bit_32>.
+WARNING:HDLCompiler:413 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\or_bit_32 .v" Line 25: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <or32>.
+
+Elaborating module <sll32>.
+
+Elaborating module <calcover>.
+
+Elaborating module <slt32>.
+
+Elaborating module <MUX2T1_5>.
+
+Elaborating module <EXE_MEM_Latches>.
+
+Elaborating module <CHECK_BRANCH>.
+WARNING:HDLCompiler:604 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" Line 518: Module instantiation should have an instance name
+
+Elaborating module <MEM_WB_Latches>.
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v" Line 78: Assignment to inst_ren ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v" Line 81: Assignment to mem_ren ignored, since the identifier is never used
+
+Elaborating module <INST_ROM>.
+WARNING:HDLCompiler:1499 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\ipcore_dir\INST_ROM.v" Line 39: Empty module <INST_ROM> remains a black box.
+
+Elaborating module <DATA_RAM>.
+WARNING:HDLCompiler:1499 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\ipcore_dir\DATA_RAM.v" Line 39: Empty module <DATA_RAM> remains a black box.
+
+Elaborating module <vga>.
+WARNING:HDLCompiler:189 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" Line 119: Size mismatch in connection of port <rst>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:1127 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" Line 123: Assignment to vga_rdn ignored, since the identifier is never used
+
+Elaborating module <vga_debug>.
+WARNING:HDLCompiler:1499 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\vga_debug.v" Line 21: Empty module <vga_debug> remains a black box.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <mips_top>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v".
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 36: Output port <CLK_OUT1> of the instance <CLK_GEN> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 36: Output port <CLK_OUT2> of the instance <CLK_GEN> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 85: Output port <led_clr_n> of the instance <DISPLAY> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 85: Output port <seg_clr_n> of the instance <DISPLAY> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r1> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r2> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r3> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r4> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r5> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r6> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r7> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r8> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r9> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r10> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r11> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r12> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r13> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r14> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r15> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r16> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r17> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r18> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r19> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r20> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r21> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r22> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r23> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r24> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r25> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r26> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r27> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r28> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r29> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r30> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <r31> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <IF_Inst> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <ID_Inst> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <EXE_Inst> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <MEM_Inst> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 102: Output port <WB_Inst> of the instance <MIPS> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" line 117: Output port <rdn> of the instance <VGA> is unconnected or connected to loadless signal.
+    Found 16-bit register for signal <rst_count>.
+    Found 1-bit register for signal <rst_all>.
+    Summary:
+	inferred  17 D-type flip-flop(s).
+Unit <mips_top> synthesized.
+
+Synthesizing Unit <clk_diff>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\clk_diff.v".
+    Summary:
+	no macro.
+Unit <clk_diff> synthesized.
+
+Synthesizing Unit <my_clk_gen>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v".
+    Summary:
+	no macro.
+Unit <my_clk_gen> synthesized.
+
+Synthesizing Unit <btn_scan>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\btn_scan.v".
+        CLK_FREQ = 25
+    Found 5-bit register for signal <btn_x>.
+    Found 20-bit register for signal <result>.
+    Found 18-bit register for signal <clk_count>.
+    Found 18-bit adder for signal <clk_count[17]_GND_7_o_add_1_OUT> created at line 33.
+    HDL ADVISOR - Describing an operational reset or an explicit power-up state for register <btn_x> would allow inference of a finite state machine and as consequence better performance and smaller area.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  43 D-type flip-flop(s).
+Unit <btn_scan> synthesized.
+
+Synthesizing Unit <display>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\display.v".
+        CLK_FREQ = 25
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\display.v" line 86: Output port <busy> of the instance <P2S_LED> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\display.v" line 86: Output port <finish> of the instance <P2S_LED> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\display.v" line 103: Output port <busy> of the instance <P2S_SEG> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\display.v" line 103: Output port <finish> of the instance <P2S_SEG> is unconnected or connected to loadless signal.
+    Found 22-bit register for signal <clk_count>.
+    Found 22-bit adder for signal <clk_count[21]_GND_8_o_add_19_OUT> created at line 121.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  22 D-type flip-flop(s).
+Unit <display> synthesized.
+
+Synthesizing Unit <parallel2serial_1>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\parallel2serial.v".
+        P_CLK_FREQ = 25
+        S_CLK_FREQ = 20
+        DATA_BITS = 16
+        CODE_ENDIAN = 1
+    Found 4-bit register for signal <data_count>.
+    Found 1-bit register for signal <busy>.
+    Found 1-bit register for signal <finish>.
+    Found 1-bit register for signal <s_clr>.
+    Found 17-bit register for signal <buff>.
+    Found 1-bit register for signal <cycle_count>.
+    Found 1-bit register for signal <s_clk>.
+    Found 3-bit register for signal <state>.
+    Found finite state machine <FSM_2> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 8                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Power Up State     | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit adder for signal <data_count[3]_GND_9_o_add_2_OUT> created at line 68.
+    Found 1-bit adder for signal <cycle_count[0]_PWR_9_o_add_36_OUT<0>> created at line 140.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <parallel2serial_1> synthesized.
+
+Synthesizing Unit <parallel2serial_2>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\parallel2serial.v".
+        P_CLK_FREQ = 25
+        S_CLK_FREQ = 20
+        DATA_BITS = 64
+        CODE_ENDIAN = 1
+    Found 6-bit register for signal <data_count>.
+    Found 1-bit register for signal <busy>.
+    Found 1-bit register for signal <finish>.
+    Found 1-bit register for signal <s_clr>.
+    Found 65-bit register for signal <buff>.
+    Found 1-bit register for signal <cycle_count>.
+    Found 1-bit register for signal <s_clk>.
+    Found 3-bit register for signal <state>.
+    Found finite state machine <FSM_3> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 8                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Power Up State     | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 6-bit adder for signal <data_count[5]_GND_10_o_add_2_OUT> created at line 68.
+    Found 1-bit adder for signal <cycle_count[0]_PWR_10_o_add_36_OUT<0>> created at line 140.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  76 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <parallel2serial_2> synthesized.
+
+Synthesizing Unit <mips>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v".
+WARNING:Xst:647 - Input <interrupter> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v" line 69: Output port <r26> of the instance <MIPS_CORE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v" line 69: Output port <r27> of the instance <MIPS_CORE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v" line 69: Output port <r28> of the instance <MIPS_CORE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v" line 69: Output port <r29> of the instance <MIPS_CORE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v" line 69: Output port <inst_ren> of the instance <MIPS_CORE> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v" line 69: Output port <mem_ren> of the instance <MIPS_CORE> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <mips> synthesized.
+
+Synthesizing Unit <SCPU>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v".
+WARNING:Xst:647 - Input <debug_addr<6:6>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r12> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r13> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r14> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r15> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r16> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r17> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r18> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r19> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r21> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r22> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r23> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r24> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r25> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r26> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r27> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r28> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r29> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 322: Output port <r30> of the instance <U2_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" line 434: Output port <overflow> of the instance <myalu> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <r14> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r15> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r16> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r17> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r18> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r19> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r21> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r22> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r23> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r24> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r25> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r26> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r27> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r28> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r29> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r30> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 32-bit register for signal <debug_data_signal>.
+    Found 32-bit 32-to-1 multiplexer for signal <debug_addr[4]_FINAL_RegData[31]_wide_mux_8_OUT> created at line 210.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <SCPU> synthesized.
+
+Synthesizing Unit <STALL>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\STALL.v".
+WARNING:Xst:647 - Input <EXE_JumpBranch> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 5-bit comparator equal for signal <Rt[4]_EXE_Rdes[4]_equal_9_o> created at line 51
+    Found 5-bit comparator equal for signal <Rs[4]_MEM_Rdes[4]_equal_10_o> created at line 52
+    Found 5-bit comparator equal for signal <Rt[4]_MEM_Rdes[4]_equal_11_o> created at line 52
+    Found 5-bit comparator equal for signal <Rs[4]_EXE_Rdes[4]_equal_12_o> created at line 75
+    Summary:
+	inferred   4 Comparator(s).
+	inferred  25 Multiplexer(s).
+Unit <STALL> synthesized.
+
+Synthesizing Unit <REG32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\REG32.v".
+    Found 32-bit register for signal <register>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <REG32> synthesized.
+
+Synthesizing Unit <add_32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\add_32.v".
+    Found 32-bit adder for signal <c> created at line 26.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <add_32> synthesized.
+
+Synthesizing Unit <MUX4T1_32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\MUX4T1_32.v".
+    Found 32-bit 4-to-1 multiplexer for signal <o> created at line 30.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX4T1_32> synthesized.
+
+Synthesizing Unit <IF_ID_Latches>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\IF_ID_Latches.v".
+    Found 32-bit register for signal <ID_Inst>.
+    Found 32-bit register for signal <ID_PCFour>.
+    Summary:
+	inferred  64 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+Unit <IF_ID_Latches> synthesized.
+
+Synthesizing Unit <CPU_CTRL>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\CPU_CTRL.v".
+WARNING:Xst:737 - Found 1-bit latch for signal <LW>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ReadRt>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ReadRs>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <EXTLog>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUSrc_A>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <MemWrite>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <RegWrite>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <JumpBranch<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <JumpBranch<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <JumpBranch<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Jal>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <DatatoReg<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <DatatoReg<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUSrc_B>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUControl<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUControl<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUControl<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUControl<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <RegDst>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred  19 Latch(s).
+Unit <CPU_CTRL> synthesized.
+
+Synthesizing Unit <Regs>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\Regs.v".
+    Found 992-bit register for signal <n0119[991:0]>.
+    Found 32-bit 31-to-1 multiplexer for signal <R_addr_A[4]_register[31][31]_wide_mux_1_OUT> created at line 63.
+    Found 32-bit 31-to-1 multiplexer for signal <R_addr_B[4]_register[31][31]_wide_mux_4_OUT> created at line 64.
+    Found 32-bit 31-to-1 multiplexer for signal <debug_addr[4]_register[31][31]_wide_mux_75_OUT> created at line 103.
+    Summary:
+	inferred 992 D-type flip-flop(s).
+	inferred  37 Multiplexer(s).
+Unit <Regs> synthesized.
+
+Synthesizing Unit <ID_EXE_Latches>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\ID_EXE_Latches.v".
+    Found 4-bit register for signal <EXE_ALUControl>.
+    Found 3-bit register for signal <EXE_JumpBranch>.
+    Found 2-bit register for signal <EXE_DatatoReg>.
+    Found 32-bit register for signal <EXE_PCFour>.
+    Found 32-bit register for signal <EXE_RDataA>.
+    Found 32-bit register for signal <EXE_RDataB>.
+    Found 32-bit register for signal <EXE_JumpPC>.
+    Found 32-bit register for signal <EXE_Inst>.
+    Found 5-bit register for signal <EXE_Rt>.
+    Found 5-bit register for signal <EXE_Rd>.
+    Found 16-bit register for signal <EXE_Imm_16>.
+    Found 1-bit register for signal <EXE_ALUSrcB>.
+    Found 1-bit register for signal <EXE_EXTLog>.
+    Found 1-bit register for signal <EXE_RegDst>.
+    Found 1-bit register for signal <EXE_Jal>.
+    Found 1-bit register for signal <EXE_RegWrite>.
+    Found 1-bit register for signal <EXE_MemWrite>.
+    Found 1-bit register for signal <EXE_LW>.
+    Found 1-bit register for signal <EXE_REALMe>.
+    Found 1-bit register for signal <EXE_ALUSrcA>.
+    Summary:
+	inferred 204 D-type flip-flop(s).
+	inferred  20 Multiplexer(s).
+Unit <ID_EXE_Latches> synthesized.
+
+Synthesizing Unit <Ext_32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\Ext_32.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Ext_32> synthesized.
+
+Synthesizing Unit <MUX2T1_32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\MUX2T1_32.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX2T1_32> synthesized.
+
+Synthesizing Unit <alu>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\alu.vf".
+    Summary:
+	no macro.
+Unit <alu> synthesized.
+
+Synthesizing Unit <and32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\and32.v".
+    Summary:
+	no macro.
+Unit <and32> synthesized.
+
+Synthesizing Unit <ADC32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\addc_32.v".
+    Found 33-bit adder for signal <n0013> created at line 30.
+    Found 33-bit adder for signal <S> created at line 30.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+Unit <ADC32> synthesized.
+
+Synthesizing Unit <xor32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\xor32.v".
+    Summary:
+Unit <xor32> synthesized.
+
+Synthesizing Unit <nor32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\nor32.v".
+    Summary:
+	no macro.
+Unit <nor32> synthesized.
+
+Synthesizing Unit <srl32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\srl32.v".
+    Found 32-bit shifter logical right for signal <res> created at line 23
+    Summary:
+	inferred   1 Multiplexer(s).
+	inferred   1 Combinational logic shifter(s).
+Unit <srl32> synthesized.
+
+Synthesizing Unit <SignalExt_32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\SignalExt_32.v".
+    Summary:
+	no macro.
+Unit <SignalExt_32> synthesized.
+
+Synthesizing Unit <MUX8T1_32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\MUX8T1_32.v".
+    Found 32-bit 8-to-1 multiplexer for signal <o> created at line 35.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX8T1_32> synthesized.
+
+Synthesizing Unit <or_bit_32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\or_bit_32 .v".
+    Summary:
+	no macro.
+Unit <or_bit_32> synthesized.
+
+Synthesizing Unit <or32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\or32.v".
+    Summary:
+	no macro.
+Unit <or32> synthesized.
+
+Synthesizing Unit <sll32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\sll.v".
+    Found 32-bit shifter logical left for signal <res> created at line 24
+    Summary:
+	inferred   1 Multiplexer(s).
+	inferred   1 Combinational logic shifter(s).
+Unit <sll32> synthesized.
+
+Synthesizing Unit <calcover>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\calcover.v".
+    Found 32-bit adder for signal <B[31]_GND_57_o_add_1_OUT> created at line 30.
+    Found 33-bit adder for signal <n0015> created at line 31.
+    Found 32-bit adder for signal <n0018> created at line 32.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred   1 Multiplexer(s).
+Unit <calcover> synthesized.
+
+Synthesizing Unit <slt32>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\slt32.v".
+    Found 1-bit comparator equal for signal <A[31]_B[31]_equal_1_o> created at line 27
+    Found 32-bit comparator greater for signal <A[31]_B[31]_LessThan_2_o> created at line 28
+    Summary:
+	inferred   2 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <slt32> synthesized.
+
+Synthesizing Unit <MUX2T1_5>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\MUX2T1_5.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX2T1_5> synthesized.
+
+Synthesizing Unit <EXE_MEM_Latches>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\EXE_MEM_Latches.v".
+    Found 2-bit register for signal <MEM_DatatoReg>.
+    Found 32-bit register for signal <MEM_PCFour>.
+    Found 32-bit register for signal <MEM_RDataA>.
+    Found 32-bit register for signal <MEM_RDataB>.
+    Found 32-bit register for signal <MEM_JumpPC>.
+    Found 32-bit register for signal <MEM_BranchPC>.
+    Found 32-bit register for signal <MEM_Res>.
+    Found 32-bit register for signal <MEM_LuiData>.
+    Found 32-bit register for signal <MEM_Inst>.
+    Found 32-bit register for signal <MEM_ALUOut>.
+    Found 5-bit register for signal <MEM_Rdes>.
+    Found 3-bit register for signal <MEM_JumpBranch>.
+    Found 1-bit register for signal <MEM_RegWrite>.
+    Found 1-bit register for signal <MEM_MemWrite>.
+    Found 1-bit register for signal <MEM_Zero>.
+    Found 1-bit register for signal <MEM_LW>.
+    Found 1-bit register for signal <MEM_REALMe>.
+    Summary:
+	inferred 303 D-type flip-flop(s).
+	inferred  17 Multiplexer(s).
+Unit <EXE_MEM_Latches> synthesized.
+
+Synthesizing Unit <CHECK_BRANCH>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\CHECK_BRANCH.v".
+    Summary:
+	inferred   6 Multiplexer(s).
+Unit <CHECK_BRANCH> synthesized.
+
+Synthesizing Unit <MEM_WB_Latches>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\MEM_WB_Latches.v".
+    Found 32-bit register for signal <WB_PCFour>.
+    Found 32-bit register for signal <WB_Res>.
+    Found 32-bit register for signal <WB_MemData>.
+    Found 32-bit register for signal <WB_LuiData>.
+    Found 32-bit register for signal <WB_Inst>.
+    Found 5-bit register for signal <WB_Rdes>.
+    Found 2-bit register for signal <WB_DatatoReg>.
+    Found 1-bit register for signal <WB_RegWrite>.
+    Summary:
+	inferred 168 D-type flip-flop(s).
+Unit <MEM_WB_Latches> synthesized.
+
+Synthesizing Unit <vga>.
+    Related source file is "D:\study\ise\ca_lsh_experiment03\experiment03\exp03\vga.v".
+    Found 10-bit register for signal <v_count>.
+    Found 1-bit register for signal <rdn>.
+    Found 1-bit register for signal <HS>.
+    Found 1-bit register for signal <VS>.
+    Found 4-bit register for signal <R>.
+    Found 4-bit register for signal <G>.
+    Found 4-bit register for signal <B>.
+    Found 10-bit register for signal <h_count>.
+    Found 10-bit adder for signal <h_count[9]_GND_65_o_add_2_OUT> created at line 18.
+    Found 10-bit adder for signal <v_count[9]_GND_65_o_add_8_OUT> created at line 30.
+    Found 10-bit comparator greater for signal <n0000> created at line 15
+    Found 10-bit comparator lessequal for signal <n0007> created at line 27
+    Found 10-bit comparator greater for signal <h_sync> created at line 37
+    Found 10-bit comparator greater for signal <v_sync> created at line 38
+    Found 10-bit comparator greater for signal <GND_65_o_h_count[9]_LessThan_15_o> created at line 39
+    Found 10-bit comparator greater for signal <h_count[9]_PWR_78_o_LessThan_16_o> created at line 40
+    Found 10-bit comparator greater for signal <GND_65_o_v_count[9]_LessThan_17_o> created at line 41
+    Found 10-bit comparator greater for signal <v_count[9]_PWR_78_o_LessThan_18_o> created at line 42
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  35 D-type flip-flop(s).
+	inferred   8 Comparator(s).
+Unit <vga> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 15
+ 1-bit adder                                           : 2
+ 10-bit adder                                          : 2
+ 18-bit adder                                          : 1
+ 22-bit adder                                          : 1
+ 32-bit adder                                          : 4
+ 33-bit adder                                          : 3
+ 4-bit adder                                           : 1
+ 6-bit adder                                           : 1
+# Registers                                            : 78
+ 1-bit register                                        : 29
+ 10-bit register                                       : 2
+ 16-bit register                                       : 2
+ 17-bit register                                       : 1
+ 18-bit register                                       : 1
+ 2-bit register                                        : 3
+ 20-bit register                                       : 1
+ 22-bit register                                       : 1
+ 3-bit register                                        : 2
+ 32-bit register                                       : 23
+ 4-bit register                                        : 5
+ 5-bit register                                        : 5
+ 6-bit register                                        : 1
+ 65-bit register                                       : 1
+ 992-bit register                                      : 1
+# Latches                                              : 19
+ 1-bit latch                                           : 19
+# Comparators                                          : 14
+ 1-bit comparator equal                                : 1
+ 10-bit comparator greater                             : 7
+ 10-bit comparator lessequal                           : 1
+ 32-bit comparator greater                             : 1
+ 5-bit comparator equal                                : 4
+# Multiplexers                                         : 138
+ 1-bit 2-to-1 multiplexer                              : 27
+ 16-bit 2-to-1 multiplexer                             : 1
+ 17-bit 2-to-1 multiplexer                             : 2
+ 2-bit 2-to-1 multiplexer                              : 24
+ 3-bit 2-to-1 multiplexer                              : 2
+ 32-bit 2-to-1 multiplexer                             : 63
+ 32-bit 31-to-1 multiplexer                            : 3
+ 32-bit 32-to-1 multiplexer                            : 1
+ 32-bit 4-to-1 multiplexer                             : 4
+ 32-bit 8-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 2
+ 5-bit 2-to-1 multiplexer                              : 5
+ 6-bit 2-to-1 multiplexer                              : 1
+ 65-bit 2-to-1 multiplexer                             : 2
+# Logic shifters                                       : 2
+ 32-bit shifter logical left                           : 1
+ 32-bit shifter logical right                          : 1
+# FSMs                                                 : 2
+# Xors                                                 : 3
+ 1-bit xor2                                            : 1
+ 32-bit xor2                                           : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <vga_debug.ngc>.
+Reading core <ipcore_dir/DATA_RAM.ngc>.
+Reading core <ipcore_dir/INST_ROM.ngc>.
+Loading core <vga_debug> for timing and area information for instance <VGA_DEBUG>.
+Loading core <DATA_RAM> for timing and area information for instance <your_instance_name>.
+Loading core <INST_ROM> for timing and area information for instance <inst_rom>.
+INFO:Xst:1901 - Instance FONT_8X16/BRAM_PC_VGA_0 in unit FONT_8X16/BRAM_PC_VGA_0 of type RAMB16_S1 has been replaced by RAMB18E1
+WARNING:Xst:1290 - Hierarchical block <XLXI_20> is unconnected in block <myalu>.
+   It will be removed from the design.
+WARNING:Xst:2677 - Node <result_0> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_1> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_2> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_3> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_4> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_5> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_6> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_7> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_8> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_9> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_10> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_11> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_12> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_13> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_14> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_15> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_17> of sequential type is unconnected in block <BTN_SCAN>.
+WARNING:Xst:2677 - Node <result_18> of sequential type is unconnected in block <BTN_SCAN>.
+
+Synthesizing (advanced) Unit <btn_scan>.
+The following registers are absorbed into counter <clk_count>: 1 register on signal <clk_count>.
+Unit <btn_scan> synthesized (advanced).
+
+Synthesizing (advanced) Unit <display>.
+The following registers are absorbed into counter <clk_count>: 1 register on signal <clk_count>.
+Unit <display> synthesized (advanced).
+
+Synthesizing (advanced) Unit <parallel2serial_1>.
+The following registers are absorbed into counter <cycle_count_0>: 1 register on signal <cycle_count_0>.
+The following registers are absorbed into counter <data_count>: 1 register on signal <data_count>.
+Unit <parallel2serial_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <parallel2serial_2>.
+The following registers are absorbed into counter <cycle_count_0>: 1 register on signal <cycle_count_0>.
+The following registers are absorbed into counter <data_count>: 1 register on signal <data_count>.
+Unit <parallel2serial_2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <vga>.
+The following registers are absorbed into counter <h_count>: 1 register on signal <h_count>.
+The following registers are absorbed into counter <v_count>: 1 register on signal <v_count>.
+Unit <vga> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 32-bit adder                                          : 4
+ 33-bit adder                                          : 1
+ 33-bit adder carry in                                 : 1
+# Counters                                             : 8
+ 1-bit up counter                                      : 2
+ 10-bit up counter                                     : 2
+ 18-bit up counter                                     : 1
+ 22-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 1942
+ Flip-Flops                                            : 1942
+# Comparators                                          : 14
+ 1-bit comparator equal                                : 1
+ 10-bit comparator greater                             : 7
+ 10-bit comparator lessequal                           : 1
+ 32-bit comparator greater                             : 1
+ 5-bit comparator equal                                : 4
+# Multiplexers                                         : 133
+ 1-bit 2-to-1 multiplexer                              : 25
+ 16-bit 2-to-1 multiplexer                             : 1
+ 17-bit 2-to-1 multiplexer                             : 2
+ 2-bit 2-to-1 multiplexer                              : 24
+ 3-bit 2-to-1 multiplexer                              : 2
+ 32-bit 2-to-1 multiplexer                             : 62
+ 32-bit 31-to-1 multiplexer                            : 3
+ 32-bit 32-to-1 multiplexer                            : 1
+ 32-bit 4-to-1 multiplexer                             : 4
+ 32-bit 8-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 1
+ 5-bit 2-to-1 multiplexer                              : 5
+ 65-bit 2-to-1 multiplexer                             : 2
+# Logic shifters                                       : 2
+ 32-bit shifter logical left                           : 1
+ 32-bit shifter logical right                          : 1
+# FSMs                                                 : 2
+# Xors                                                 : 3
+ 1-bit xor2                                            : 1
+ 32-bit xor2                                           : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <DISPLAY/P2S_LED/FSM_2> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 00
+ 001   | 01
+ 010   | 11
+ 011   | 10
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <DISPLAY/P2S_SEG/FSM_3> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 00
+ 001   | 01
+ 010   | 11
+ 011   | 10
+-------------------
+WARNING:Xst:1710 - FF/Latch <EXE_JumpPC_0> (without init value) has a constant value of 0 in block <ID_EXE_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <EXE_JumpPC_1> (without init value) has a constant value of 0 in block <ID_EXE_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_LuiData_0> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_1> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_2> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_3> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_4> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_5> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_6> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_7> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_8> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_9> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_10> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_11> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_12> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_13> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_14> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_LuiData_15> (without init value) has a constant value of 0 in block <EXE_MEM_Latches>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <cycle_count_0> has a constant value of 0 in block <parallel2serial_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <buff_0> (without init value) has a constant value of 0 in block <parallel2serial_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buff_1> (without init value) has a constant value of 0 in block <parallel2serial_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buff_2> (without init value) has a constant value of 0 in block <parallel2serial_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buff_3> (without init value) has a constant value of 0 in block <parallel2serial_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buff_4> (without init value) has a constant value of 0 in block <parallel2serial_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <buff_5> (without init value) has a constant value of 0 in block <parallel2serial_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <cycle_count_0> has a constant value of 0 in block <parallel2serial_2>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_9> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_11> <EXE_Imm_16_9> 
+INFO:Xst:2261 - The FF/Latch <EXE_PCFour_30> in Unit <ID_EXE_Latches> is equivalent to the following FF/Latch, which will be removed : <EXE_JumpPC_30> 
+INFO:Xst:2261 - The FF/Latch <EXE_PCFour_31> in Unit <ID_EXE_Latches> is equivalent to the following FF/Latch, which will be removed : <EXE_JumpPC_31> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_10> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_12> <EXE_Imm_16_10> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_11> in Unit <ID_EXE_Latches> is equivalent to the following 3 FFs/Latches, which will be removed : <EXE_JumpPC_13> <EXE_Rd_0> <EXE_Imm_16_11> 
+INFO:Xst:2261 - The FF/Latch <EXE_PCFour_28> in Unit <ID_EXE_Latches> is equivalent to the following FF/Latch, which will be removed : <EXE_JumpPC_28> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_12> in Unit <ID_EXE_Latches> is equivalent to the following 3 FFs/Latches, which will be removed : <EXE_JumpPC_14> <EXE_Rd_1> <EXE_Imm_16_12> 
+INFO:Xst:2261 - The FF/Latch <EXE_PCFour_29> in Unit <ID_EXE_Latches> is equivalent to the following FF/Latch, which will be removed : <EXE_JumpPC_29> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_13> in Unit <ID_EXE_Latches> is equivalent to the following 3 FFs/Latches, which will be removed : <EXE_JumpPC_15> <EXE_Rd_2> <EXE_Imm_16_13> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_14> in Unit <ID_EXE_Latches> is equivalent to the following 3 FFs/Latches, which will be removed : <EXE_JumpPC_16> <EXE_Rd_3> <EXE_Imm_16_14> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_15> in Unit <ID_EXE_Latches> is equivalent to the following 3 FFs/Latches, which will be removed : <EXE_JumpPC_17> <EXE_Rd_4> <EXE_Imm_16_15> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_20> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_22> <EXE_Rt_4> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_16> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_18> <EXE_Rt_0> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_21> in Unit <ID_EXE_Latches> is equivalent to the following FF/Latch, which will be removed : <EXE_JumpPC_23> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_17> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_19> <EXE_Rt_1> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_22> in Unit <ID_EXE_Latches> is equivalent to the following FF/Latch, which will be removed : <EXE_JumpPC_24> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_18> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_20> <EXE_Rt_2> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_23> in Unit <ID_EXE_Latches> is equivalent to the following FF/Latch, which will be removed : <EXE_JumpPC_25> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_19> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_21> <EXE_Rt_3> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_24> in Unit <ID_EXE_Latches> is equivalent to the following FF/Latch, which will be removed : <EXE_JumpPC_26> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_25> in Unit <ID_EXE_Latches> is equivalent to the following FF/Latch, which will be removed : <EXE_JumpPC_27> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_0> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_2> <EXE_Imm_16_0> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_1> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_3> <EXE_Imm_16_1> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_2> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_4> <EXE_Imm_16_2> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_3> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_5> <EXE_Imm_16_3> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_4> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_6> <EXE_Imm_16_4> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_5> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_7> <EXE_Imm_16_5> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_6> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_8> <EXE_Imm_16_6> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_7> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_9> <EXE_Imm_16_7> 
+INFO:Xst:2261 - The FF/Latch <EXE_Inst_8> in Unit <ID_EXE_Latches> is equivalent to the following 2 FFs/Latches, which will be removed : <EXE_JumpPC_10> <EXE_Imm_16_8> 
+
+Optimizing unit <MEM_WB_Latches> ...
+
+Optimizing unit <mips_top> ...
+
+Optimizing unit <btn_scan> ...
+
+Optimizing unit <SCPU> ...
+
+Optimizing unit <IF_ID_Latches> ...
+
+Optimizing unit <REG32> ...
+
+Optimizing unit <Regs> ...
+
+Optimizing unit <ID_EXE_Latches> ...
+
+Optimizing unit <EXE_MEM_Latches> ...
+
+Optimizing unit <CPU_CTRL> ...
+
+Optimizing unit <alu> ...
+
+Optimizing unit <calcover> ...
+
+Optimizing unit <STALL> ...
+
+Optimizing unit <display> ...
+
+Optimizing unit <parallel2serial_1> ...
+INFO:Xst:2261 - The FF/Latch <state_FSM_FFd2> in Unit <parallel2serial_1> is equivalent to the following FF/Latch, which will be removed : <busy> 
+
+Optimizing unit <parallel2serial_2> ...
+INFO:Xst:2261 - The FF/Latch <state_FSM_FFd2> in Unit <parallel2serial_2> is equivalent to the following FF/Latch, which will be removed : <busy> 
+
+Optimizing unit <vga> ...
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_0> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_1> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_0> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_1> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_2> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_3> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_4> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_5> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_6> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_7> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_8> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_9> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_10> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_11> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_12> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_13> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_14> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_15> (without init value) has a constant value of 0 in block <mips_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_18> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_17> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_15> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_14> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_13> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_12> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_11> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_10> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_9> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_8> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_7> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_6> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_5> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_4> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_3> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_2> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_1> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <BTN_SCAN/result_0> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <DISPLAY/P2S_LED/finish> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <DISPLAY/P2S_LED/s_clr> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <DISPLAY/P2S_SEG/finish> of sequential type is unconnected in block <mips_top>.
+WARNING:Xst:2677 - Node <DISPLAY/P2S_SEG/s_clr> of sequential type is unconnected in block <mips_top>.
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_24> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_26> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_19> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_21> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_25> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_27> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_PCFour_30> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_30> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_PCFour_31> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_31> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_PCFour_28> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_28> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_PCFour_29> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_29> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_PCFour_0> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_BranchPC_0> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_PCFour_1> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_BranchPC_1> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_0> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_16> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_2> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_1> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_17> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_3> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_2> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_18> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_4> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_3> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_19> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_5> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_4> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_20> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_6> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_5> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_21> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_7> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_6> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_22> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_8> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_7> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_23> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_9> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_8> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_24> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_10> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_9> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_25> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_11> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_10> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_26> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_12> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_11> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_27> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_13> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_12> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_28> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_14> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_13> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_29> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_15> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_14> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_30> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_16> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_15> in Unit <mips_top> is equivalent to the following 2 FFs/Latches, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_31> <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_17> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_20> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_22> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_21> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_23> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_16> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_18> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_22> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_24> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_17> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_19> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_23> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_25> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_18> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_20> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_0> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_16> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_1> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_17> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_2> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_18> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_3> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_19> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_4> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_20> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_5> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_21> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_6> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_22> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_7> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_23> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_8> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_24> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_9> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_25> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_10> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_26> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_11> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_27> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_12> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_28> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_13> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_29> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_14> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_30> 
+INFO:Xst:2261 - The FF/Latch <MIPS/MIPS_CORE/MEM_WB/WB_Inst_15> in Unit <mips_top> is equivalent to the following FF/Latch, which will be removed : <MIPS/MIPS_CORE/MEM_WB/WB_LuiData_31> 
+Found area constraint ratio of 100 (+ 5) on block mips_top, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1830
+ Flip-Flops                                            : 1830
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : mips_top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 4764
+#      GND                         : 5
+#      INV                         : 12
+#      LUT1                        : 85
+#      LUT2                        : 148
+#      LUT3                        : 1172
+#      LUT4                        : 245
+#      LUT5                        : 812
+#      LUT6                        : 1839
+#      MUXCY                       : 163
+#      MUXF7                       : 127
+#      VCC                         : 4
+#      XORCY                       : 152
+# FlipFlops/Latches                : 1901
+#      FD                          : 79
+#      FDC                         : 519
+#      FDCE                        : 96
+#      FDCE_1                      : 992
+#      FDE                         : 106
+#      FDR                         : 67
+#      FDRE                        : 22
+#      FDS                         : 1
+#      LD                          : 19
+# RAMS                             : 9
+#      RAM32M                      : 5
+#      RAM32X1D                    : 2
+#      RAMB18E1                    : 1
+#      RAMB36E1                    : 1
+# Clock Buffers                    : 6
+#      BUFG                        : 6
+# IO Buffers                       : 37
+#      IBUF                        : 11
+#      IBUFGDS                     : 1
+#      OBUF                        : 25
+# Others                           : 1
+#      MMCME2_ADV                  : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7k325tfbg676-2l 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1901  out of  407600     0%  
+ Number of Slice LUTs:                 4337  out of  203800     2%  
+    Number used as Logic:              4313  out of  203800     2%  
+    Number used as Memory:               24  out of  64000     0%  
+       Number used as RAM:               24
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   4439
+   Number with an unused Flip Flop:    2538  out of   4439    57%  
+   Number with an unused LUT:           102  out of   4439     2%  
+   Number of fully used LUT-FF pairs:  1799  out of   4439    40%  
+   Number of unique control sets:        30
+
+IO Utilization: 
+ Number of IOs:                          40
+ Number of bonded IOBs:                  38  out of    400     9%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                2  out of    445     0%  
+    Number using Block RAM only:          2
+ Number of BUFG/BUFGCTRLs:                6  out of     32    18%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+---------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+-------+
+Clock Signal                                                                                                   | Clock buffer(FF name)                                          | Load  |
+---------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+-------+
+CLK_GEN/clkout3                                                                                                | BUFG                                                           | 50    |
+CLK_GEN/clkout2                                                                                                | BUFG                                                           | 234   |
+MIPS/MIPS_CORE/clk_pc(MIPS/MIPS_CORE/Mmux_clk_pc11:O)                                                          | BUFG(*)(MIPS/MIPS_CORE/IF_ID/ID_Inst_31)                       | 1607  |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_89_o(MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_89_o1:O)  | NONE(*)(MIPS/MIPS_CORE/CPU_CTRL/ReadRs)                        | 1     |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_101_o(MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_101_o2:O)| NONE(*)(MIPS/MIPS_CORE/CPU_CTRL/RegWrite)                      | 1     |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_85_o(MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_85_o1:O)  | NONE(*)(MIPS/MIPS_CORE/CPU_CTRL/ReadRt)                        | 1     |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_125_o(MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_125_o1:O)| NONE(*)(MIPS/MIPS_CORE/CPU_CTRL/ALUSrc_B)                      | 1     |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_91_o(MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_91_o:O)   | NONE(*)(MIPS/MIPS_CORE/CPU_CTRL/EXTLog)                        | 1     |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_115_o(MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_115_o3:O)| NONE(*)(MIPS/MIPS_CORE/CPU_CTRL/ALUSrc_A)                      | 14    |
+VGA_DEBUG/FONT_8X16/BRAM_PC_VGA_0/N0                                                                           | NONE(VGA_DEBUG/FONT_8X16/BRAM_PC_VGA_0/FONT_8X16/BRAM_PC_VGA_0)| 1     |
+---------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------+-------+
+(*) These 7 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                                                                   | Buffer(FF name)                                                                                                                                              | Load  |
+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+VGA_DEBUG/FONT_8X16/BRAM_PC_VGA_0/N0(VGA_DEBUG/FONT_8X16/BRAM_PC_VGA_0/XST_GND:G)| NONE(VGA_DEBUG/FONT_8X16/BRAM_PC_VGA_0/FONT_8X16/BRAM_PC_VGA_0)                                                                                              | 12    |
+VGA_DEBUG/FONT_8X16/BRAM_PC_VGA_0/N1(VGA_DEBUG/FONT_8X16/BRAM_PC_VGA_0/XST_VCC:P)| NONE(VGA_DEBUG/FONT_8X16/BRAM_PC_VGA_0/FONT_8X16/BRAM_PC_VGA_0)                                                                                              | 8     |
+MIPS/your_instance_name/N1(MIPS/your_instance_name/XST_GND:G)                    | NONE(MIPS/your_instance_name/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM36.ram)| 2     |
+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 4.839ns (Maximum Frequency: 206.644MHz)
+   Minimum input arrival time before clock: 0.988ns
+   Maximum output required time after clock: 0.711ns
+   Maximum combinational path delay: 0.000ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_GEN/clkout3'
+  Clock period: 1.553ns (frequency: 643.749MHz)
+  Total number of paths / destination ports: 31 / 16
+-------------------------------------------------------------------------
+Delay:               1.553ns (Levels of Logic = 2)
+  Source:            rst_count_7 (FF)
+  Destination:       rst_all (FF)
+  Source Clock:      CLK_GEN/clkout3 rising
+  Destination Clock: CLK_GEN/clkout3 rising
+
+  Data Path: rst_count_7 to rst_all
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.236   0.618  rst_count_7 (rst_count_7)
+     LUT6:I0->O            1   0.043   0.613  GND_1_o_GND_1_o_not_equal_2_o1 (GND_1_o_GND_1_o_not_equal_2_o1)
+     LUT6:I0->O            1   0.043   0.000  GND_1_o_GND_1_o_not_equal_2_o3 (GND_1_o_GND_1_o_not_equal_2_o)
+     FDS:D                    -0.000          rst_all
+    ----------------------------------------
+    Total                      1.553ns (0.322ns logic, 1.231ns route)
+                                       (20.7% logic, 79.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_GEN/clkout2'
+  Clock period: 4.839ns (frequency: 206.644MHz)
+  Total number of paths / destination ports: 29295 / 477
+-------------------------------------------------------------------------
+Delay:               4.839ns (Levels of Logic = 9)
+  Source:            VGA/h_count_4 (FF)
+  Destination:       VGA_DEBUG/ascii_code_5 (FF)
+  Source Clock:      CLK_GEN/clkout2 rising
+  Destination Clock: CLK_GEN/clkout2 rising
+
+  Data Path: VGA/h_count_4 to VGA_DEBUG/ascii_code_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q            398   0.236   0.811  VGA/h_count_4 (VGA/h_count_4)
+     begin scope: 'VGA_DEBUG:h_count<4>'
+     LUT6:I0->O            9   0.043   0.450  Msub_col_addr_cy<5>11 (Msub_col_addr_cy<5>)
+     LUT5:I3->O           56   0.043   0.656  n0069<1>1 (n0069<1>)
+     LUT6:I2->O            2   0.043   0.618  char_index_col[6]_PWR_1_o_mod_8/Mmux_o51 (char_index_in_page<4>)
+     LUT6:I0->O           10   0.043   0.663  GND_1_o_char_index_in_page[4]_AND_4_o (GND_1_o_char_index_in_page[4]_AND_4_o)
+     LUT6:I0->O            1   0.043   0.000  Mmux_GND_1_o_GND_1_o_mux_37_OUT62_F (N35)
+     MUXF7:I0->O           1   0.176   0.405  Mmux_GND_1_o_GND_1_o_mux_37_OUT62 (Mmux_GND_1_o_GND_1_o_mux_37_OUT61)
+     LUT2:I0->O            1   0.043   0.522  Mmux_GND_1_o_GND_1_o_mux_37_OUT63_SW0 (N25)
+     LUT6:I2->O            1   0.043   0.000  Mmux_GND_1_o_GND_1_o_mux_37_OUT63 (GND_1_o_GND_1_o_mux_37_OUT<5>)
+     FDE:D                    -0.000          ascii_code_5
+    ----------------------------------------
+    Total                      4.839ns (0.713ns logic, 4.126ns route)
+                                       (14.7% logic, 85.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'MIPS/MIPS_CORE/clk_pc'
+  Clock period: 4.287ns (frequency: 233.258MHz)
+  Total number of paths / destination ports: 162928 / 2663
+-------------------------------------------------------------------------
+Delay:               2.144ns (Levels of Logic = 4)
+  Source:            MIPS/MIPS_CORE/U2_2/register_31_189 (FF)
+  Destination:       MIPS/MIPS_CORE/ID_EXE/EXE_RDataB_29 (FF)
+  Source Clock:      MIPS/MIPS_CORE/clk_pc falling
+  Destination Clock: MIPS/MIPS_CORE/clk_pc rising
+
+  Data Path: MIPS/MIPS_CORE/U2_2/register_31_189 to MIPS/MIPS_CORE/ID_EXE/EXE_RDataB_29
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q           4   0.240   0.539  MIPS/MIPS_CORE/U2_2/register_31_189 (MIPS/MIPS_CORE/U2_2/register_31_189)
+     LUT6:I2->O            1   0.043   0.522  MIPS/MIPS_CORE/U2_2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_864 (MIPS/MIPS_CORE/U2_2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_864)
+     LUT6:I2->O            1   0.043   0.000  MIPS/MIPS_CORE/U2_2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_321 (MIPS/MIPS_CORE/U2_2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_321)
+     MUXF7:I1->O           2   0.178   0.344  MIPS/MIPS_CORE/U2_2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_2_f7_20 (MIPS/MIPS_CORE/U2_2/R_addr_B[4]_register[31][31]_wide_mux_4_OUT<29>)
+     MUXF7:S->O            1   0.234   0.000  MIPS/MIPS_CORE/ID_EXE/Mmux_ID_RDataB[31]_GND_40_o_mux_14_OUT221 (MIPS/MIPS_CORE/ID_EXE/ID_RDataB[31]_GND_40_o_mux_14_OUT<29>)
+     FDC:D                    -0.000          MIPS/MIPS_CORE/ID_EXE/EXE_RDataB_29
+    ----------------------------------------
+    Total                      2.144ns (0.738ns logic, 1.406ns route)
+                                       (34.4% logic, 65.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_GEN/clkout3'
+  Total number of paths / destination ports: 18 / 18
+-------------------------------------------------------------------------
+Offset:              0.988ns (Levels of Logic = 2)
+  Source:            SW<4> (PAD)
+  Destination:       rst_count_0 (FF)
+  Destination Clock: CLK_GEN/clkout3 rising
+
+  Data Path: SW<4> to rst_count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.000   0.351  SW_4_IBUF (SW_4_IBUF)
+     INV:I->O             16   0.054   0.422  SW<4>_inv1_INV_0 (SW<4>_inv)
+     FDE:CE                    0.161          rst_count_0
+    ----------------------------------------
+    Total                      0.988ns (0.215ns logic, 0.773ns route)
+                                       (21.8% logic, 78.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_GEN/clkout2'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              0.651ns (Levels of Logic = 2)
+  Source:            SW<0> (PAD)
+  Destination:       DISPLAY/P2S_LED/buff_0 (FF)
+  Destination Clock: CLK_GEN/clkout2 rising
+
+  Data Path: SW<0> to DISPLAY/P2S_LED/buff_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.000   0.608  SW_0_IBUF (SW_0_IBUF)
+     LUT5:I0->O            1   0.043   0.000  DISPLAY/P2S_LED/Mmux__n011011 (DISPLAY/P2S_LED/_n0110<0>)
+     FDE:D                    -0.000          DISPLAY/P2S_LED/buff_0
+    ----------------------------------------
+    Total                      0.651ns (0.043ns logic, 0.608ns route)
+                                       (6.6% logic, 93.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK_GEN/clkout2'
+  Total number of paths / destination ports: 23 / 23
+-------------------------------------------------------------------------
+Offset:              0.711ns (Levels of Logic = 1)
+  Source:            DISPLAY/P2S_SEG/s_clk (FF)
+  Destination:       SEGLED_CLK (PAD)
+  Source Clock:      CLK_GEN/clkout2 rising
+
+  Data Path: DISPLAY/P2S_SEG/s_clk to SEGLED_CLK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            65   0.236   0.475  DISPLAY/P2S_SEG/s_clk (DISPLAY/P2S_SEG/s_clk)
+     OBUF:I->O                 0.000          SEGLED_CLK_OBUF (SEGLED_CLK)
+    ----------------------------------------
+    Total                      0.711ns (0.236ns logic, 0.475ns route)
+                                       (33.2% logic, 66.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               0.000ns (Levels of Logic = 1)
+  Source:            CLK_200M_P (PAD)
+  Destination:       CLK_GEN/mmcm_adv_inst:CLKIN1 (PAD)
+
+  Data Path: CLK_200M_P to CLK_GEN/mmcm_adv_inst:CLKIN1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUFGDS:I->O          0   0.000   0.000  CLK_DIFF/IBUFGDS_inst (clk200MHz)
+    MMCME2_ADV:CLKIN1          0.000          CLK_GEN/mmcm_adv_inst
+    ----------------------------------------
+    Total                      0.000ns (0.000ns logic, 0.000ns route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK_GEN/clkout2
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+CLK_GEN/clkout2      |    4.839|         |         |         |
+CLK_GEN/clkout3      |    1.786|         |         |         |
+MIPS/MIPS_CORE/clk_pc|         |    2.613|         |         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock CLK_GEN/clkout3
+-----------------------------------------------------+---------+---------+---------+---------+
+                                                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------------------------+---------+---------+---------+---------+
+CLK_GEN/clkout2                                      |    3.920|         |         |         |
+CLK_GEN/clkout3                                      |    1.553|         |         |         |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_115_o|         |    4.701|         |         |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_85_o |         |    5.023|         |         |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_89_o |         |    5.045|         |         |
+MIPS/MIPS_CORE/clk_pc                                |    5.886|    4.071|    1.791|         |
+-----------------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_101_o
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+MIPS/MIPS_CORE/clk_pc|         |         |    5.448|         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_115_o
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+MIPS/MIPS_CORE/clk_pc|         |         |    5.538|         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_125_o
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+MIPS/MIPS_CORE/clk_pc|         |         |    1.566|         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_85_o
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+MIPS/MIPS_CORE/clk_pc|         |         |    5.448|         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_89_o
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+MIPS/MIPS_CORE/clk_pc|         |         |    5.538|         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_91_o
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+MIPS/MIPS_CORE/clk_pc|         |         |    1.951|         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock MIPS/MIPS_CORE/clk_pc
+-----------------------------------------------------+---------+---------+---------+---------+
+                                                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------------------------+---------+---------+---------+---------+
+CLK_GEN/clkout3                                      |    1.098|         |    1.098|         |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_101_o|         |    0.723|         |         |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_115_o|         |    2.934|         |         |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_125_o|         |    0.723|         |         |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_85_o |         |    3.262|         |         |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_89_o |         |    3.284|         |         |
+MIPS/MIPS_CORE/CPU_CTRL/OPcode[5]_Fun[5]_Select_91_o |         |    0.723|         |         |
+MIPS/MIPS_CORE/clk_pc                                |    4.217|    2.144|    1.747|         |
+-----------------------------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 31.00 secs
+Total CPU time to Xst completion: 30.98 secs
+ 
+--> 
+
+Total memory usage is 4681788 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  156 (   0 filtered)
+Number of infos    :  152 (   0 filtered)
+

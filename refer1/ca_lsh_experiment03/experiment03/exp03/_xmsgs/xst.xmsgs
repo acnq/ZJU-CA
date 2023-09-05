@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\vga.v" Line 11: Redeclaration of ansi port <arg fmt="%s" index="1">h_count</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\vga.v" Line 22: Redeclaration of ansi port <arg fmt="%s" index="1">v_count</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" Line 85: Port <arg fmt="%s" index="1">led_clr_n</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" Line 102: Port <arg fmt="%s" index="1">r1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 134: Assignment to <arg fmt="%s" index="1">clkfboutb_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 136: Assignment to <arg fmt="%s" index="1">clkout0b_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 138: Assignment to <arg fmt="%s" index="1">clkout1b_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 140: Assignment to <arg fmt="%s" index="1">clkout2b_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 142: Assignment to <arg fmt="%s" index="1">clkout3b_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 143: Assignment to <arg fmt="%s" index="1">clkout4_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 144: Assignment to <arg fmt="%s" index="1">clkout5_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 145: Assignment to <arg fmt="%s" index="1">clkout6_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 157: Assignment to <arg fmt="%s" index="1">do_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 158: Assignment to <arg fmt="%s" index="1">drdy_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 164: Assignment to <arg fmt="%s" index="1">psdone_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 166: Assignment to <arg fmt="%s" index="1">locked_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 167: Assignment to <arg fmt="%s" index="1">clkinstopped_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\my_clk_gen.v" Line 168: Assignment to <arg fmt="%s" index="1">clkfbstopped_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v" Line 69: Port <arg fmt="%s" index="1">r26</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" Line 322: Port <arg fmt="%s" index="1">r12</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" Line 196: Assignment to <arg fmt="%s" index="1">cpu_rst</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\STALL.v" Line 50: Assignment to <arg fmt="%s" index="1">EXE_Branch</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" Line 332: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">debug_addr</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\alu.vf" Line 81: Assignment to <arg fmt="%s" index="1">N0</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\v\datapath\or_bit_32 .v" Line 25: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v" Line 518: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v" Line 78: Assignment to <arg fmt="%s" index="1">inst_ren</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v" Line 81: Assignment to <arg fmt="%s" index="1">mem_ren</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\ipcore_dir\INST_ROM.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">INST_ROM</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\ipcore_dir\DATA_RAM.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">DATA_RAM</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" Line 119: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rst</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v" Line 123: Assignment to <arg fmt="%s" index="1">vga_rdn</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"D:\study\ise\ca_lsh_experiment03\experiment03\exp03\vga_debug.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">vga_debug</arg>&gt; remains a black box.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">36</arg>: Output port &lt;<arg fmt="%s" index="3">CLK_OUT1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CLK_GEN</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">36</arg>: Output port &lt;<arg fmt="%s" index="3">CLK_OUT2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">CLK_GEN</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">led_clr_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DISPLAY</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">85</arg>: Output port &lt;<arg fmt="%s" index="3">seg_clr_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">DISPLAY</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r4</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r5</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r6</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r7</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r8</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r9</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r10</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r11</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r12</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r13</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r14</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r15</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r16</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r17</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r18</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r19</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r20</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r21</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r22</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r23</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r24</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r25</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r26</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r27</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r28</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r29</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r30</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">r31</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">IF_Inst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">ID_Inst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">EXE_Inst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">MEM_Inst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">WB_Inst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips_top.v</arg>&quot; line <arg fmt="%s" index="2">117</arg>: Output port &lt;<arg fmt="%s" index="3">rdn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">VGA</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\display.v</arg>&quot; line <arg fmt="%s" index="2">86</arg>: Output port &lt;<arg fmt="%s" index="3">busy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">P2S_LED</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\display.v</arg>&quot; line <arg fmt="%s" index="2">86</arg>: Output port &lt;<arg fmt="%s" index="3">finish</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">P2S_LED</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\display.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">busy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">P2S_SEG</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\display.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">finish</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">P2S_SEG</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">interrupter</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v</arg>&quot; line <arg fmt="%s" index="2">69</arg>: Output port &lt;<arg fmt="%s" index="3">r26</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS_CORE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v</arg>&quot; line <arg fmt="%s" index="2">69</arg>: Output port &lt;<arg fmt="%s" index="3">r27</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS_CORE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v</arg>&quot; line <arg fmt="%s" index="2">69</arg>: Output port &lt;<arg fmt="%s" index="3">r28</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS_CORE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v</arg>&quot; line <arg fmt="%s" index="2">69</arg>: Output port &lt;<arg fmt="%s" index="3">r29</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS_CORE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v</arg>&quot; line <arg fmt="%s" index="2">69</arg>: Output port &lt;<arg fmt="%s" index="3">inst_ren</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS_CORE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\mips.v</arg>&quot; line <arg fmt="%s" index="2">69</arg>: Output port &lt;<arg fmt="%s" index="3">mem_ren</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MIPS_CORE</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">debug_addr&lt;6:6&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r12</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r13</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r14</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r15</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r16</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r17</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r18</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r19</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r21</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r22</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r23</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r24</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r25</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r26</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r27</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r28</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r29</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">322</arg>: Output port &lt;<arg fmt="%s" index="3">r30</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U2_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\study\ise\ca_lsh_experiment03\experiment03\exp03\SCPU.v</arg>&quot; line <arg fmt="%s" index="2">434</arg>: Output port &lt;<arg fmt="%s" index="3">overflow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">myalu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r14</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r15</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r16</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r17</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r18</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r19</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r21</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r22</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r23</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r24</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r25</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r26</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r27</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r28</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r29</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r30</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">EXE_JumpBranch</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">LW</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ReadRt</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ReadRs</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">EXTLog</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ALUSrc_A</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">MemWrite</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">RegWrite</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">JumpBranch&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">JumpBranch&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">JumpBranch&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Jal</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">DatatoReg&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">DatatoReg&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ALUSrc_B</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ALUControl&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ALUControl&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ALUControl&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ALUControl&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">RegDst</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">FONT_8X16/BRAM_PC_VGA_0</arg> in unit <arg fmt="%s" index="2">FONT_8X16/BRAM_PC_VGA_0</arg> of type <arg fmt="%s" index="3">RAMB16_S1</arg> has been replaced by <arg fmt="%s" index="4">RAMB18E1</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_20</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">myalu</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">result_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">BTN_SCAN</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">EXE_JumpPC_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ID_EXE_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">EXE_JumpPC_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ID_EXE_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">MEM_LuiData_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">EXE_MEM_Latches</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">cycle_count_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">parallel2serial_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">buff_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">parallel2serial_2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">buff_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">parallel2serial_2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">buff_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">parallel2serial_2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">buff_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">parallel2serial_2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">buff_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">parallel2serial_2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">buff_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">parallel2serial_2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">cycle_count_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">parallel2serial_2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_11&gt; &lt;EXE_Imm_16_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_PCFour_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_30&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_PCFour_31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_12&gt; &lt;EXE_Imm_16_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_13&gt; &lt;EXE_Rd_0&gt; &lt;EXE_Imm_16_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_PCFour_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_28&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_14&gt; &lt;EXE_Rd_1&gt; &lt;EXE_Imm_16_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_PCFour_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_29&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_15&gt; &lt;EXE_Rd_2&gt; &lt;EXE_Imm_16_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_16&gt; &lt;EXE_Rd_3&gt; &lt;EXE_Imm_16_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_17&gt; &lt;EXE_Rd_4&gt; &lt;EXE_Imm_16_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_22&gt; &lt;EXE_Rt_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_18&gt; &lt;EXE_Rt_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_19&gt; &lt;EXE_Rt_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_24&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_20&gt; &lt;EXE_Rt_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_23</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_25&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_21&gt; &lt;EXE_Rt_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_24</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_26&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_27&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_2&gt; &lt;EXE_Imm_16_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_3&gt; &lt;EXE_Imm_16_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_4&gt; &lt;EXE_Imm_16_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_5&gt; &lt;EXE_Imm_16_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_6&gt; &lt;EXE_Imm_16_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_7&gt; &lt;EXE_Imm_16_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_8&gt; &lt;EXE_Imm_16_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_9&gt; &lt;EXE_Imm_16_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">EXE_Inst_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ID_EXE_Latches</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;EXE_JumpPC_10&gt; &lt;EXE_Imm_16_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">state_FSM_FFd2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">parallel2serial_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;busy&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">state_FSM_FFd2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">parallel2serial_2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;busy&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_LuiData_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mips_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">BTN_SCAN/result_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DISPLAY/P2S_LED/finish</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DISPLAY/P2S_LED/s_clr</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DISPLAY/P2S_SEG/finish</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DISPLAY/P2S_SEG/s_clr</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mips_top</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_24</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_26&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_27&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_PCFour_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_30&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_PCFour_31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_PCFour_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_28&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_PCFour_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_29&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_PCFour_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_BranchPC_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_PCFour_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_BranchPC_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_16&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_17&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_18&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_19&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_20&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_21&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_22&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_23&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_24&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_25&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_26&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_27&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_28&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_29&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_30&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_LuiData_31&gt; &lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_17&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_24&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_23</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_25&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/EXE_MEM/MEM_Inst_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/EXE_MEM/MEM_JumpPC_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_17&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_24&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_25&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_26&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_27&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_28&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_29&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_30&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">MIPS/MIPS_CORE/MEM_WB/WB_Inst_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mips_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;MIPS/MIPS_CORE/MEM_WB/WB_LuiData_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

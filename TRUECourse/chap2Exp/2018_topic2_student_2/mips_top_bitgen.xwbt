@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\AAuniversityTasks\CSComputerArch\TRUECourse\chap1Exp\topic2\2018_topic2_student_2\mips_top.ncd
+OUTFILE=D:\AAuniversityTasks\CSComputerArch\TRUECourse\chap1Exp\topic2\2018_topic2_student_2\mips_top.bit
+FAMILY=Kintex7
+PART=xc7k325t-2lfbg676
+WORKINGDIR=D:\AAuniversityTasks\CSComputerArch\TRUECourse\chap1Exp\topic2\2018_topic2_student_2
+LICENSE=ISE
+USER_INFO=__0_0_0

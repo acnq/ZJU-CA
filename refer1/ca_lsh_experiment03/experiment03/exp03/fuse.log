@@ -1,0 +1,90 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/E/study/thi_autwin/ca/pro/experiment03/exp03/test_sec_mips_isim_beh.exe -prj C:/E/study/thi_autwin/ca/pro/experiment03/exp03/test_sec_mips_beh.prj work.test_sec_mips work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/v/slt32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/v/sll.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/v/MUX8T1_32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/v/datapath/xor32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/v/datapath/srl32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/v/datapath/SignalExt_32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/v/datapath/or_bit_32 .v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/v/datapath/or32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/v/datapath/nor32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/v/datapath/and32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/v/datapath/addc_32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/v/calcover.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/MUX2T1_32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/alu.vf" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/STALL.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/Regs.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/REG32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/MUX4T1_32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/MUX2T1_5.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/MEM_WB_Latches.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/IF_ID_Latches.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/ID_EXE_Latches.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/Ext_32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/EXE_MEM_Latches.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/CPU_CTRL.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/CHECK_BRANCH.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/add_32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/SCPU.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/ipcore_dir/INST_ROM.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/ipcore_dir/DATA_RAM.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/mips.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/test_sec_mips.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:604 - "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/SCPU.v" Line 518: Module instantiation should have an instance name
+WARNING:HDLCompiler:1016 - "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/mips.v" Line 69: Port r26 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/SCPU.v" Line 322: Port r12 is not connected to this instance
+WARNING:HDLCompiler:189 - "C:/E/study/thi_autwin/ca/pro/experiment03/exp03/SCPU.v" Line 332: Size mismatch in connection of port <debug_addr>. Formal port size is 5-bit while actual signal size is 7-bit.
+Completed static elaboration
+Compiling module STALL
+Compiling module REG32
+Compiling module add_32
+Compiling module MUX4T1_32
+Compiling module IF_ID_Latches
+Compiling module CPU_CTRL
+Compiling module Regs
+Compiling module ID_EXE_Latches
+Compiling module Ext_32
+Compiling module MUX2T1_32
+Compiling module and32
+Compiling module ADC32
+Compiling module xor32
+Compiling module nor32
+Compiling module srl32
+Compiling module SignalExt_32
+Compiling module MUX8T1_32
+Compiling module GND
+Compiling module or_bit_32
+Compiling module or32
+Compiling module sll32
+Compiling module calcover
+Compiling module slt32
+Compiling module alu
+Compiling module MUX2T1_5
+Compiling module EXE_MEM_Latches
+Compiling module CHECK_BRANCH
+Compiling module MEM_WB_Latches
+Compiling module SCPU
+Compiling module DIST_MEM_GEN_V7_2(C_FAMILY="kint...
+Compiling module INST_ROM
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="kinte...
+Compiling module DATA_RAM
+Compiling module mips
+Compiling module test_sec_mips
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\test_sec_mips_isim_beh.exe.sim\libPortability.dll".
+Compiled 39 Verilog Units
+Built simulation executable C:/E/study/thi_autwin/ca/pro/experiment03/exp03/test_sec_mips_isim_beh.exe
+Fuse Memory Usage: 34728 KB
+Fuse CPU Usage: 1203 ms

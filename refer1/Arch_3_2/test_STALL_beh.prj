@@ -1,0 +1,3 @@
+verilog work "STALL.v"
+verilog work "test_STALL.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

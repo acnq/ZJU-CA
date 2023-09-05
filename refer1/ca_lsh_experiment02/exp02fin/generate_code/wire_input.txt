@@ -1,0 +1,15 @@
+IF
+ID
+EXE
+MEM
+WB
+ALUSrcA 1 2
+ALUSrcB 1 2
+EXTLog 1 2
+RegDst 1 2
+Jal 1 2
+ALUControl 4 2
+JumpBranch 2 3
+DatatoReg 2 3
+RegWrite 1 4
+MemWrite 1 3

@@ -1,0 +1,11 @@
+ISim log file
+Running: C:\E\study\thi_autwin\ca\pro\experiment02\exp02fin\exp02\test_scpu_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/test_scpu_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/SCPU.v" Line 28.  For instance uut/U2_2/, width 5 of formal port debug_addr is not equal to width 7 of actual signal debug_addr.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

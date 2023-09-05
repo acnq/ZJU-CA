@@ -1,0 +1,43 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design mips_top.ngc ...
+WARNING:NetListWriters:298 - No output is written to mips_top.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus row_addr[6 : 0] on block vga_debug is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   current_display_reg_addr[7]_GND_23_o_select_58_OUT[52 : 0] on block vga_debug
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus strdata[52 : 0] on block vga_debug is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Madd_n0125[6:0]_cy[3 : 0] on block
+   vga_debug is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Madd_n0121[7:0]_cy[4 : 0] on block
+   vga_debug is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus led[15]_inv_16_OUT<15 : 0> on block
+   display is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus out<30 : 0> on block inst_rom is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n0011<30 : 0> on block inst_rom is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus inst_data_exe<30 : 0> on block datapath
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus inst_data_mem<30 : 0> on block datapath
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Mmux__n03041_rs_A<14 : 2> on block
+   datapath is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus inst_data<31 : 0> on block mips is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus btn_x[4]_result[19]_select_18_OUT<19 :
+   16> on block btn_scan is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus btn<19 : 16> on block mips_top is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus btn_step_inv_3_OUT<15 : 0> on block
+   mips_top is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file mips_top.edif ...
+ngc2edif: Total memory usage is 4327596 kilobytes
+

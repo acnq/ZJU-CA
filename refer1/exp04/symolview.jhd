@@ -1,0 +1,3 @@
+MODULE symolview
+	SUBMODULE datapath
+		INSTANCE XLXI_1

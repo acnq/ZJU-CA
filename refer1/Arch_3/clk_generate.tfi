@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+clk_generate instance_name (
+    .clk200P(clk200P), 
+    .clk200N(clk200N), 
+    .rst(rst), 
+    .clkdiv(clkdiv)
+    );
+
+

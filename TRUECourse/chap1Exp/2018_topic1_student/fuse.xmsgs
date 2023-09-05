@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 101: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 102: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 103: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 104: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 114: Syntax error near &quot;<arg fmt="%s" index="1">}</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 119: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 120: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 143: Syntax error near &quot;<arg fmt="%s" index="1">always</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 147: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 148: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 149: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 152: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 153: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 154: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 155: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1563" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 155: Empty item in case item list violates IEEE 1364 syntax
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 175: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"D:/AAuniversityTasks/CSComputerArch/TRUECourse/chap1Exp/2018_topic1_student/datapath.v" Line 176: Syntax error near &quot;<arg fmt="%s" index="1">?</arg>&quot;.
+</msg>
+
+</messages>
+

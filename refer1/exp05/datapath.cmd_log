@@ -1,0 +1,2 @@
+vhdtdtfi -lib work E:/5.term/ARCT/2018_topic2_student/datapath.v -lang verilog -prj exp3 -o datapath.spl -module datapath -template E:/ISEinstallplace/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 datapath.spl E:/5.term/ARCT/2018_topic2_student/datapath.sym 

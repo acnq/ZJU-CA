@@ -1,0 +1,204 @@
+module IF_ID_Latches(
+	input wire [31:0] IF_PCFour,
+	output reg [31:0] ID_PCFour,
+	input wire [31:0] IF_Inst,
+	output reg [31:0] ID_Inst,
+	input clk,
+	input rst,
+	input IF_shouldstall
+	);
+	always @ (posedge clk or posedge rst or posedge IF_shouldstall) begin
+		if(rst || IF_shoudstall) begin
+			ID_PCFour <= 0;
+			ID_Inst <= 0;
+		end
+		else begin
+			ID_PCFour <= IF_PCFour;
+			ID_Inst <= IF_Inst;
+		end
+	end
+endmodule
+module ID_EXE_Latches(
+	input wire ID_ALUSrcA,
+	output reg EXE_ALUSrcA,
+	input wire ID_ALUSrcB,
+	output reg EXE_ALUSrcB,
+	input wire ID_EXTLog,
+	output reg EXE_EXTLog,
+	input wire ID_RegDst,
+	output reg EXE_RegDst,
+	input wire ID_Jal,
+	output reg EXE_Jal,
+	input wire [3:0] ID_ALUControl,
+	output reg [3:0] EXE_ALUControl,
+	input wire [2:0] ID_JumpBranch,
+	output reg [2:0] EXE_JumpBranch,
+	input wire [1:0] ID_DatatoReg,
+	output reg [1:0] EXE_DatatoReg,
+	input wire ID_RegWrite,
+	output reg EXE_RegWrite,
+	input wire ID_MemWrite,
+	output reg EXE_MemWrite,
+	input wire [31:0] ID_PCFour,
+	output reg [31:0] EXE_PCFour,
+	input wire [4:0] ID_Rt,
+	output reg [4:0] EXE_Rt,
+	input wire [4:0] ID_Rd,
+	output reg [4:0] EXE_Rd,
+	input wire [31:0] ID_RDataA,
+	output reg [31:0] EXE_RDataA,
+	input wire [31:0] ID_RDataB,
+	output reg [31:0] EXE_RDataB,
+	input wire [31:0] ID_JumpPC,
+	output reg [31:0] EXE_JumpPC,
+	input wire [15:0] ID_Imm_16,
+	output reg [15:0] EXE_Imm_16,
+	input clk,
+	input rst,
+	input ID_shouldstall
+	);
+	always @ (posedge clk or posedge rst or posedge ID_shouldstall) begin
+		if(rst || ID_shoudstall) begin
+			EXE_ALUSrcA <= 0;
+			EXE_ALUSrcB <= 0;
+			EXE_EXTLog <= 0;
+			EXE_RegDst <= 0;
+			EXE_Jal <= 0;
+			EXE_ALUControl <= 0;
+			EXE_JumpBranch <= 0;
+			EXE_DatatoReg <= 0;
+			EXE_RegWrite <= 0;
+			EXE_MemWrite <= 0;
+			EXE_PCFour <= 0;
+			EXE_Rt <= 0;
+			EXE_Rd <= 0;
+			EXE_RDataA <= 0;
+			EXE_RDataB <= 0;
+			EXE_JumpPC <= 0;
+			EXE_Imm_16 <= 0;
+		end
+		else begin
+			EXE_ALUSrcA <= ID_ALUSrcA;
+			EXE_ALUSrcB <= ID_ALUSrcB;
+			EXE_EXTLog <= ID_EXTLog;
+			EXE_RegDst <= ID_RegDst;
+			EXE_Jal <= ID_Jal;
+			EXE_ALUControl <= ID_ALUControl;
+			EXE_JumpBranch <= ID_JumpBranch;
+			EXE_DatatoReg <= ID_DatatoReg;
+			EXE_RegWrite <= ID_RegWrite;
+			EXE_MemWrite <= ID_MemWrite;
+			EXE_PCFour <= ID_PCFour;
+			EXE_Rt <= ID_Rt;
+			EXE_Rd <= ID_Rd;
+			EXE_RDataA <= ID_RDataA;
+			EXE_RDataB <= ID_RDataB;
+			EXE_JumpPC <= ID_JumpPC;
+			EXE_Imm_16 <= ID_Imm_16;
+		end
+	end
+endmodule
+module EXE_MEM_Latches(
+	input wire [2:0] EXE_JumpBranch,
+	output reg [2:0] MEM_JumpBranch,
+	input wire [1:0] EXE_DatatoReg,
+	output reg [1:0] MEM_DatatoReg,
+	input wire EXE_RegWrite,
+	output reg MEM_RegWrite,
+	input wire EXE_MemWrite,
+	output reg MEM_MemWrite,
+	input wire [31:0] EXE_PCFour,
+	output reg [31:0] MEM_PCFour,
+	input wire [4:0] EXE_Rdes,
+	output reg [4:0] MEM_Rdes,
+	input wire [31:0] EXE_RDataA,
+	output reg [31:0] MEM_RDataA,
+	input wire [31:0] EXE_RDataB,
+	output reg [31:0] MEM_RDataB,
+	input wire [31:0] EXE_JumpPC,
+	output reg [31:0] MEM_JumpPC,
+	input wire [31:0] EXE_BranchPC,
+	output reg [31:0] MEM_BranchPC,
+	input wire EXE_Zero,
+	output reg MEM_Zero,
+	input wire [31:0] EXE_Res,
+	output reg [31:0] MEM_Res,
+	input wire [31:0] EXE_LuiData,
+	output reg [31:0] MEM_LuiData,
+	input clk,
+	input rst,
+	input EXE_shouldstall
+	);
+	always @ (posedge clk or posedge rst or posedge EXE_shouldstall) begin
+		if(rst || EXE_shoudstall) begin
+			MEM_JumpBranch <= 0;
+			MEM_DatatoReg <= 0;
+			MEM_RegWrite <= 0;
+			MEM_MemWrite <= 0;
+			MEM_PCFour <= 0;
+			MEM_Rdes <= 0;
+			MEM_RDataA <= 0;
+			MEM_RDataB <= 0;
+			MEM_JumpPC <= 0;
+			MEM_BranchPC <= 0;
+			MEM_Zero <= 0;
+			MEM_Res <= 0;
+			MEM_LuiData <= 0;
+		end
+		else begin
+			MEM_JumpBranch <= EXE_JumpBranch;
+			MEM_DatatoReg <= EXE_DatatoReg;
+			MEM_RegWrite <= EXE_RegWrite;
+			MEM_MemWrite <= EXE_MemWrite;
+			MEM_PCFour <= EXE_PCFour;
+			MEM_Rdes <= EXE_Rdes;
+			MEM_RDataA <= EXE_RDataA;
+			MEM_RDataB <= EXE_RDataB;
+			MEM_JumpPC <= EXE_JumpPC;
+			MEM_BranchPC <= EXE_BranchPC;
+			MEM_Zero <= EXE_Zero;
+			MEM_Res <= EXE_Res;
+			MEM_LuiData <= EXE_LuiData;
+		end
+	end
+endmodule
+module MEM_WB_Latches(
+	input wire [1:0] MEM_DatatoReg,
+	output reg [1:0] WB_DatatoReg,
+	input wire MEM_RegWrite,
+	output reg WB_RegWrite,
+	input wire [31:0] MEM_PCFour,
+	output reg [31:0] WB_PCFour,
+	input wire [4:0] MEM_Rdes,
+	output reg [4:0] WB_Rdes,
+	input wire [31:0] MEM_Res,
+	output reg [31:0] WB_Res,
+	input wire [31:0] MEM_MemData,
+	output reg [31:0] WB_MemData,
+	input wire [31:0] MEM_LuiData,
+	output reg [31:0] WB_LuiData,
+	input clk,
+	input rst,
+	input MEM_shouldstall
+	);
+	always @ (posedge clk or posedge rst or posedge MEM_shouldstall) begin
+		if(rst || MEM_shoudstall) begin
+			WB_DatatoReg <= 0;
+			WB_RegWrite <= 0;
+			WB_PCFour <= 0;
+			WB_Rdes <= 0;
+			WB_Res <= 0;
+			WB_MemData <= 0;
+			WB_LuiData <= 0;
+		end
+		else begin
+			WB_DatatoReg <= MEM_DatatoReg;
+			WB_RegWrite <= MEM_RegWrite;
+			WB_PCFour <= MEM_PCFour;
+			WB_Rdes <= MEM_Rdes;
+			WB_Res <= MEM_Res;
+			WB_MemData <= MEM_MemData;
+			WB_LuiData <= MEM_LuiData;
+		end
+	end
+endmodule

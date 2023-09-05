@@ -1,0 +1,76 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/test_scpu_isim_beh.exe -prj C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/test_scpu_beh.prj work.test_scpu work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/v/slt32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/v/sll.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/v/MUX8T1_32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/v/datapath/xor32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/v/datapath/srl32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/v/datapath/SignalExt_32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/v/datapath/or_bit_32 .v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/v/datapath/or32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/v/datapath/nor32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/v/datapath/and32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/v/datapath/addc_32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/v/calcover.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/MUX2T1_32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/alu.vf" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/STALL.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/Regs.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/REG32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/MUX4T1_32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/MUX2T1_5.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/MEM_WB_Latches.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/IF_ID_Latches.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/ID_EXE_Latches.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/Ext_32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/EXE_MEM_Latches.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/CPU_CTRL.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/CHECK_BRANCH.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/add_32.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/SCPU.v" into library work
+Analyzing Verilog file "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/test_scpu.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/SCPU.v" Line 269: Size mismatch in connection of port <debug_addr>. Formal port size is 5-bit while actual signal size is 7-bit.
+Completed static elaboration
+Compiling module STALL
+Compiling module REG32
+Compiling module add_32
+Compiling module MUX4T1_32
+Compiling module IF_ID_Latches
+Compiling module CPU_CTRL
+Compiling module Regs
+Compiling module ID_EXE_Latches
+Compiling module Ext_32
+Compiling module MUX2T1_32
+Compiling module and32
+Compiling module ADC32
+Compiling module xor32
+Compiling module nor32
+Compiling module srl32
+Compiling module SignalExt_32
+Compiling module MUX8T1_32
+Compiling module GND
+Compiling module or_bit_32
+Compiling module or32
+Compiling module sll32
+Compiling module calcover
+Compiling module slt32
+Compiling module alu
+Compiling module MUX2T1_5
+Compiling module EXE_MEM_Latches
+Compiling module CHECK_BRANCH
+Compiling module MEM_WB_Latches
+Compiling module SCPU
+Compiling module test_scpu
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\test_scpu_isim_beh.exe.sim\libPortability.dll".
+Compiled 31 Verilog Units
+Built simulation executable C:/E/study/thi_autwin/ca/pro/experiment02/exp02fin/exp02/test_scpu_isim_beh.exe
+Fuse Memory Usage: 28680 KB
+Fuse CPU Usage: 968 ms
